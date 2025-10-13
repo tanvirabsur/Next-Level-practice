@@ -1,0 +1,24 @@
+Enhancement Instructions
+This document provides instructions for adding animations and dynamic tab interactions to the portfolio design shown in the image. The goal is to enhance interactivity and visual appeal without introducing any new features or layout changes.
+1. Hero Section
+- Add a smooth fade-in animation for the title 'CREATIVE DEVELOPER SINCE 2020'.
+- The number '2020' should slide upward slightly with a bounce effect.
+- The background image should use a slow zoom-in (parallax style) effect.
+- Text below ('Over the last 5y...') can fade in with a slight delay after the title.
+2. Certifications Section
+- Add hover animations for each certification icon (AWS, Google, etc.) that slightly enlarge the icon.
+- When hovered, show a small tooltip with the certification name.
+3. Social Media & Portfolio Tabs
+- Implement dynamic tab switching for the 'Social Media', 'My Story', and 'Download Portfolio' sections.
+- When a tab is clicked, content should fade out and fade in for a smooth transition.
+- Highlight the active tab using a glowing underline animation.
+4. Projects and Products Section
+- Apply a slide-in animation for each project card when it appears in the viewport.
+- Add hover scaling effect (slight zoom) for each project thumbnail.
+- The 'Ver mas' button should have a hover animation that increases brightness and adds a subtle shadow.
+5. Frameworks & Tech Section
+- Each framework card should appear with a bottom-to-top slide effect when scrolled into view.
+- Add a hover effect that slightly raises the card and adds a soft glow around it.
+6. Open Source Footer
+- Apply a fade-in effect for the GitHub logo and the  text.
+- On hover, the GitHub link should slightly rotate or scale up to attract attention.
