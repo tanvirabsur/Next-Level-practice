@@ -1,5 +1,7 @@
 // import { useState } from 'react';
 
+import AchievementsSection from "./Achivmit";
+
 export default function CertificationSection() {
   const certifications = [
     { id: 1, name: 'Google', logo: 'G' },
@@ -102,32 +104,7 @@ export default function CertificationSection() {
         </div>
 
         {/* Achievements Section */}
-        <div>
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 tracking-wider">
-            ACHIEVEMENTS
-          </h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {achievements.map((achievement) => (
-              <div
-                key={achievement.id}
-                className="flex flex-col items-center text-center space-y-4 transform transition-all duration-300 hover:scale-105"
-              >
-                {/* Achievement Icon */}
-                <div className="text-6xl">{achievement.icon}</div>
-
-                {/* Achievement Content */}
-                <div className="space-y-2">
-                  <h3 className="text-lg font-bold">{achievement.title}</h3>
-                  <p className="text-slate-300 text-sm">{achievement.subtitle}</p>
-                  <p className="text-slate-500 text-xs uppercase tracking-wider">
-                    {achievement.category}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
+        <AchievementsSection/>
 
         {/* Bottom Action Bar */}
        

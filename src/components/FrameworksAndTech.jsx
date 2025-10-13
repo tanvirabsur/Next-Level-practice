@@ -100,14 +100,7 @@ export default function FrameworksAndTech() {
         </div>
 
         {/* Optional: Bottom CTA */}
-        <div className="mt-16 text-center">
-          <p className="text-slate-400 mb-6">
-            And I'm always learning new technologies and frameworks
-          </p>
-          <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full font-semibold transition duration-200">
-            Explore My Projects
-          </button>
-        </div>
+        
       </div>
 
       {/* Decorative Elements */}
